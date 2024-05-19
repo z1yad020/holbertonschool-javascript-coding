@@ -19,7 +19,7 @@ request(process.argv[2], function (error, response, body) {
         res[ob.userId] = 1;
       }
     }
-  })
+  });
 
   console.log(res);
-})
+});
